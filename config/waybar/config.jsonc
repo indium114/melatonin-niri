@@ -13,7 +13,7 @@
   ],
   "clock": {
 	"rotate": 90,
-    "format": "<span foreground='#f2cdcd'> </span>{:%H:%M}",
+    "format": "<span foreground='#cba6f7'> </span>{:%H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "battery": {

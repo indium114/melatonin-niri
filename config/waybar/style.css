@@ -91,7 +91,7 @@ button:hover {
 }
 
 #clock {
-    color: @flamingo;
+    color: @mauve;
     /* border-right: 2px solid @flamingo; */
 }
 
@@ -101,7 +101,7 @@ button:hover {
 }
 
 #pulseaudio {
-    color: @pink;
+    color: @mauve;
     /* border-right: 2px solid @pink; */
 }
 
