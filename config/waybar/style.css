@@ -156,6 +156,14 @@ button:hover {
 		/* border-right: 2px solid @mauve; */
 }
 
+#temperature.warning {
+  color: @yellow;
+}
+
+#temperature.critical {
+  color: @red;
+}
+
 #custom-pacman {
     color: @mauve;
     /* border-right: 2px solid @mauve; */
