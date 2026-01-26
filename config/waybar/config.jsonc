@@ -37,7 +37,7 @@
   "pulseaudio": {
 	  "rotate": 90,
       "format": "{icon} {volume}%",
-      "format-muted": "X Muted",
+      "format-muted": " Muted",
       "format-icons": {
           "default": ["", "", " "]
       },
