@@ -119,6 +119,7 @@ require("lazy").setup({
 		{ "stevearc/oil.nvim", config = function() require("oil").setup() end },
 		{ "nvim-mini/mini.nvim", config = function()
 				require("mini.icons").setup()
+				require("mini.surround").setup()
 			end
 		},
 		{ "oxy2dev/markview.nvim", ft = { "markdown", "html", "latex", "typst", "yaml" } },
