@@ -1,6 +1,6 @@
-# caffeine-niri
+# melatonin-niri
 
-**caffeine-niri** is a Hyprland rice I created, with Catppuccin Macchiato colors!
+**melatonin-niri** is a Hyprland rice I created, with Catppuccin Macchiato colors!
 
 ## Image
 ![The rice in use](using.png)
@@ -16,14 +16,14 @@ Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 brew install stikypiston/formulae/dotkeeper
 ```
 
-Then, run `dotkeeper fetch https://github.com/StikyPiston/caffeine-niri`
+Then, run `dotkeeper fetch https://github.com/StikyPiston/melatonin-niri`
 
-To activate the rice, ensure all dependencies are installed, and run `dotkeeper activate caffeine-niri`
+To activate the rice, ensure all dependencies are installed, and run `dotkeeper activate melatonin-niri`
 
 ### Method 2 - Manual Install
 
-Run `git clone https://github.com/StikyPiston/caffeine-niri`
+Run `git clone https://github.com/StikyPiston/melatonin-niri`
 
 Copy the contents of `config` to `~/.config/`
 
-Install any needed deps (hyprland, waybar, wofi, etc.), and there you go!
+Install any needed dependencies (niri, waybar, vicinae, etc.)
