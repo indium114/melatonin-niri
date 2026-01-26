@@ -16,9 +16,9 @@
       "critical": 15
     },
     "format": "<span size='13000' foreground='#cba6f7'>{icon} </span> {capacity}%",
-    "format-warning": "<span size='13000' foreground='#cba6f7'>{icon} </span> {capacity}%",
+    "format-warning": "<span size='13000' foreground='#fab387'>{icon} </span> {capacity}%",
     "format-critical": "<span size='13000' foreground='#f38ba8'>{icon} </span> {capacity}%",
-    "format-charging": "<span size='13000' foreground='#cba6f7'> </span>{capacity}%",
+    "format-charging": "<span size='13000' foreground='#a6e3a1'> </span>{capacity}%",
     "format-plugged": "<span size='13000' foreground='#cba6f7'> </span>{capacity}%",
     "format-alt": "<span size='13000' foreground='#cba6f7'>{icon} </span> {time}",
     "format-full": "<span size='13000' foreground='#cba6f7'>󱟢 </span>{capacity}%",
