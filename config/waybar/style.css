@@ -5,20 +5,30 @@
     font-size: 16px;
     min-height: 0;
     font-weight: bold;
+	padding: 0;
+	margin: 3;
+	border: none;
+	border-radius: 0px;
+}
+
+.modules-center {
+	background: rgba(17, 17, 27, 0.85);
+	border-radius: 24px;
+	padding: 2px 1px;
 }
 
 window#waybar {
-	background: rgba(24, 24, 37, 0.75);
+	background: transparent;
     color: @mauve;
-    transition-property: background-color;
-    transition-duration: 0.1s;
+    /* transition-property: background-color; */
+    /* transition-duration: 0.1s; */
     /* border-right: 1px solid @surface0; */
 }
 
 #window {
-    margin: 8px;
-    padding-left: 8;
-    padding-right: 8;
+    margin: 3px;
+    padding-left: 3;
+    padding-right: 3;
 }
 
 button {
@@ -30,7 +40,6 @@ button {
 button:hover {
     background: inherit;
     color: @mauve;
-    border-top: 2px solid @mauve;
 }
 
 #workspaces button {
@@ -73,7 +82,7 @@ button:hover {
   /* padding-right: 4px; */
   padding-top: 4px;
   padding-bottom: 4px;
-  background: rgba(17, 17, 27, 0.85);
+  /* background: rgba(17, 17, 27, 0.85); */
   border-radius: 10px;
   min-width: 0;
 }
