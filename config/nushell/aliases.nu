@@ -38,3 +38,10 @@ alias cal = cal -t
 
 alias yz = yazi
 alias cd = z
+
+
+def chafa [...args] {
+  with-env { TERM: xterm-kitty } {
+    ^chafa ...$args
+  }
+}
