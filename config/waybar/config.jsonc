@@ -90,10 +90,11 @@
 	  "format": "|"
   },
     "niri/workspaces": {
+		"rotate": 90,
     "format": "{icon}",
     "on-click": "activate",
     "format-icons": {
-      "active": "",
+      "active": "",
       "urgent": "",
       "default": ""
     }

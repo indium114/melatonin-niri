@@ -51,7 +51,10 @@ button:hover {
 }
 
 #workspaces button.active {
-    color: @mauve;
+    background: linear-gradient(@maroon, @blue);
+	border-radius: 16px;
+	color: @crust;
+	transition: all 0.3s ease-in-out;
 }
 
 #workspaces button.urgent {
