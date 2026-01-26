@@ -1,9 +1,16 @@
 {
   "position": "left",
   "layer": "top",
-  "modules-left": ["hyprland/workspaces", "niri/workspaces"],
-  "modules-center": ["mpris"],
-  "modules-right": ["tray", "custom/spacer", "custom/pacman", "custom/spacer", "temperature", "custom/spacer", "battery", "custom/spacer", "pulseaudio", "custom/spacer", "clock"],
+  "modules-center": [
+	  "tray",
+	  "custom/pacman",
+	  "temperature",
+	  "pulseaudio",
+	  "battery",
+	  "mpris",
+	  "niri/workspaces",
+	  "clock"
+  ],
   "clock": {
 	"rotate": 90,
     "format": "<span foreground='#f2cdcd'> </span>{:%H:%M}",
