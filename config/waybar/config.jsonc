@@ -2,22 +2,22 @@
   "position": "left",
   "layer": "top",
   "modules-center": [
-	  "tray",
-	  "custom/pacman",
-	  "temperature",
-	  "pulseaudio",
-	  "battery",
-	  "mpris",
-	  "niri/workspaces",
-	  "clock"
+    "tray",
+    "custom/pacman",
+    "temperature",
+    "pulseaudio",
+    "battery",
+    "mpris",
+    "niri/workspaces",
+    "clock"
   ],
   "clock": {
-	"rotate": 90,
+    "rotate": 90,
     "format": "<span foreground='#cba6f7'> </span>{:%H:%M}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
   "battery": {
-	"rotate": 90,
+    "rotate": 90,
     "states": {
       "warning": 30,
       "critical": 15
@@ -29,69 +29,79 @@
     "format-plugged": "<span size='13000' foreground='#cba6f7'> </span>{capacity}%",
     "format-alt": "<span size='13000' foreground='#cba6f7'>{icon} </span> {time}",
     "format-full": "<span size='13000' foreground='#cba6f7'>󱟢 </span>{capacity}%",
-    "format-icons": ["", "", "", "", ""],
+    "format-icons": [
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
     "tooltip-format": "{time}"
   },
   "mpd": {
-	"rotate": 90,
-  	"server": "127.0.0.1",
-  	"interval": 10,
-  	"format": "{artist} - {title}",
-  	"format-stopped": "",
-  	"format-paused": "",
-  	"format-disconnected": "! MPD unreachable"
+    "rotate": 90,
+    "server": "127.0.0.1",
+    "interval": 10,
+    "format": "{artist} - {title}",
+    "format-stopped": "",
+    "format-paused": "",
+    "format-disconnected": "! MPD unreachable"
   },
   "pulseaudio": {
-	  "rotate": 90,
-      "format": "{icon} {volume}%",
-      "format-muted": " Muted",
-      "format-icons": {
-          "default": ["", "", " "]
-      },
-      "on-click": "pavucontrol"
+    "rotate": 90,
+    "format": "{icon} {volume}%",
+    "format-muted": " Muted",
+    "format-icons": {
+      "default": [
+        "",
+        "",
+        " "
+      ]
+    },
+    "on-click": "pavucontrol"
   },
   "mpris": {
-	"rotate": 90,
-  	"format": "{player_icon} {dynamic}",
-  	"format-paused": "{status_icon} <i>{dynamic}</i>",
-	"interval": 1,
-  	"player-icons": {
-  		"default": "",
-  		"vlc": "󱍼"
-  	},
-  	"status-icons": {
-  		"paused": ""
-  	},
-	"max-length": 25
+    "rotate": 90,
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "interval": 1,
+    "player-icons": {
+      "default": "",
+      "vlc": "󱍼"
+    },
+    "status-icons": {
+      "paused": ""
+    },
+    "max-length": 25
   },
   "temperature": {
-	  	"rotate": 90,
-		"hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
-	  "critical-threshold": 70,
-	  "warning-threshold": 60,
-	  "format": "{icon} {temperatureC}°C",
-		"format-icons": [
-      			"",
-      			"",
-      			""
-    		]
+    "rotate": 90,
+    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+    "critical-threshold": 70,
+    "warning-threshold": 60,
+    "format": "{icon} {temperatureC}°C",
+    "format-icons": [
+      "",
+      "",
+      ""
+    ]
   },
   "custom/pacman": {
-	"rotate": 90,
-  	"format": "{icon} {0}",
-  	"return-type": "json",
-  	"format-icons": {
-  		"pending-updates": "󰏗",
-  		"updated": ""
-  	},
-  	"exec": "waybar-updates"
+    "rotate": 90,
+    "format": "{icon} {0}",
+    "return-type": "json",
+    "format-icons": {
+      "pending-updates": "󰏗",
+      "updated": ""
+    },
+    "exec": "waybar-updates"
   },
   "custom/spacer": {
-	  "rotate": 90,
-	  "format": "|"
+    "rotate": 90,
+    "format": "|"
   },
-    "niri/workspaces": {
-		"rotate": 90,
+  "niri/workspaces": {
+    "rotate": 90,
     "format": "{icon}",
     "on-click": "activate",
     "format-icons": {
