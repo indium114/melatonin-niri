@@ -20,6 +20,7 @@ $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.scripts" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.cargo/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/gem/ruby/3.4.0/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/go/bin" )
 
 source catppuccin_mocha.nu
 source starship.nu
@@ -32,6 +33,7 @@ $env.config.show_banner = false
 $env.BAT_THEME         = "Catppuccin Mocha"
 $env.EDITOR            = "/home/distrorockhopper/.local/share/bob/nvim-bin/nvim"
 $env.PLAYDATE_SDK_PATH = "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2"
+$env.GOPATH            = "/home/distrorockhopper/go"
 
 $env.HOMEBREW_NO_ENV_HINTS = 1
 
