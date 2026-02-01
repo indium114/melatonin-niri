@@ -38,6 +38,11 @@ environment {
 		DISPLAY ":0"
 }
 
+cursor {
+	xcursor-theme "Catppuccin Mocha Mauve"
+	xcursor-size 24
+}
+
 layout {
     gaps 16
     center-focused-column "always"
