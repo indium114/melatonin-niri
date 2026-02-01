@@ -31,16 +31,16 @@ source aliases.nu
 $env.config.show_banner = false
 
 $env.BAT_THEME         = "Catppuccin Mocha"
-$env.EDITOR            = "/home/distrorockhopper/.local/share/bob/nvim-bin/nvim"
+$env.EDITOR            = "nvim"
 $env.PLAYDATE_SDK_PATH = "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2"
 $env.GOPATH            = "/home/distrorockhopper/go"
 
 $env.HOMEBREW_NO_ENV_HINTS = 1
 
 recall list
-fastcards amount
-hocusfocus currentsession
-termfarm stats
+# fastcards amount
+# hocusfocus currentsession
+# termfarm stats
 open ~/.scripts/motds.txt | lines | shuffle | first | $"󰆈 ($in)"
 
 $env.FZF_DEFAULT_OPTS = "

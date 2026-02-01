@@ -19,9 +19,9 @@ alias rm    = rm -v
 alias mkdir = mkdir -v
 alias tree  = tree -LC 1
 alias ncdu  = ncdu --color dark --show-percent
-alias clear = /bin/clear -x
+alias clear = clear -k
 
-alias nv = /home/distrorockhopper/.local/share/bob/nvim-bin/nvim
+alias nv = nvim
 
 alias gs = git status
 alias ga = git add
