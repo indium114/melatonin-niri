@@ -504,6 +504,9 @@ enableLSP("markdown", "marksman")
 -- > Bash LSP
 enableLSP("bash", "bash-language-server")
 
+-- > Nix LSP
+enableLSP("nix", "nixd")
+
 -- Inline diagnostics
 vim.diagnostic.config({
 	virtual_text = true
