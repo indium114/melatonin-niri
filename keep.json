@@ -26,12 +26,6 @@
 		{ "source": "config/zathura",                     "target": "~/.config/zathura" },
 		{ "source": "config/wallpaper.jpg",               "target": "~/.wallpaper" },
 		{ "source": "config/helix",                       "target": "~/.config/helix" },
-		{ "source": "config/nushell/catppuccin_mocha.nu", "target": "~/.config/nushell/catppuccin_mocha.nu" },
-		{ "source": "config/nushell/config.nu",           "target": "~/.config/nushell/config.nu" },
-		{ "source": "config/nushell/starship.nu",         "target": "~/.config/nushell/starship.nu" },
-		{ "source": "config/nushell/zoxide.nu",           "target": "~/.config/nushell/zoxide.nu" },
-		{ "source": "config/nushell/completers.nu",       "target": "~/.config/nushell/completers.nu" },
-		{ "source": "config/nushell/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
 		{ "source": "config/television",                  "target": "~/.config/television" }
 	]
 }
