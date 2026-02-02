@@ -37,7 +37,7 @@
   "tree-sitter-vhs": { "branch": "main", "commit": "0c6fae9d2cfc5b217bfd1fe84a7678f5917116db" },
   "triforce.nvim": { "branch": "main", "commit": "29c503a05a5a72374a9ee92b9c3f4026d0c76d37" },
   "trouble.nvim": { "branch": "main", "commit": "bd67efe408d4816e25e8491cc5ad4088e708a69a" },
-  "unobtrusive-relnums.nvim": { "branch": "main", "commit": "9873ab633d776fa94c8d905306aaee4c3cf3d401" },
+  "unobtrusive-relnums.nvim": { "branch": "main", "commit": "e0ade8a9026187e3ec839d08fec8d4bc39045623" },
   "vim-startuptime": { "branch": "master", "commit": "b6f0d93f6b8cf6eee0b4c94450198ba2d6a05ff6" },
   "volt": { "branch": "main", "commit": "620de1321f275ec9d80028c68d1b88b409c0c8b1" },
   "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" }
