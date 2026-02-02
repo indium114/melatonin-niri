@@ -11,6 +11,6 @@
 		{ "source": "config/nushell.frosties/starship.nu",         "target": "~/.config/nushell/starship.nu" },
 		{ "source": "config/nushell.frosties/zoxide.nu",           "target": "~/.config/nushell/zoxide.nu" },
 		{ "source": "config/nushell.frosties/completers.nu",       "target": "~/.config/nushell/completers.nu" },
-		{ "source": "config/nushell.frosties/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
+		{ "source": "config/nushell.frosties/aliases.nu",          "target": "~/.config/nushell/aliases.nu" }
 	]
 }
