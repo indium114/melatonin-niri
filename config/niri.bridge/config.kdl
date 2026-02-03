@@ -98,7 +98,7 @@ window-rule {
 }
 
 window-rule {
-	match app-id=r#"^app\.zen_browser\.zen"#
+	match app-id=r#"^zen"#
 	opacity 0.9
 	draw-border-with-background false
 }
