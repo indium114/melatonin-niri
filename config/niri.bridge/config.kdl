@@ -39,7 +39,7 @@ environment {
 }
 
 cursor {
-	xcursor-theme "Catppuccin Mocha Mauve"
+	xcursor-theme "Catppuccin Mocha Dark"
 	xcursor-size 24
 }
 
