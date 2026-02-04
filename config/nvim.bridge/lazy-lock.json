@@ -35,7 +35,7 @@
   "telescope.nvim": { "branch": "master", "commit": "ad7d9580338354ccc136e5b8f0aa4f880434dcdc" },
   "todo-comments.nvim": { "branch": "main", "commit": "31e3c38ce9b29781e4422fc0322eb0a21f4e8668" },
   "tree-sitter-vhs": { "branch": "main", "commit": "0c6fae9d2cfc5b217bfd1fe84a7678f5917116db" },
-  "triforce.nvim": { "branch": "main", "commit": "387370be8812507e67f8ad623062852cc005881f" },
+  "triforce.nvim": { "branch": "main", "commit": "702b5c5ce1d8b707f6cb55c993748313372d3023" },
   "trouble.nvim": { "branch": "main", "commit": "bd67efe408d4816e25e8491cc5ad4088e708a69a" },
   "unobtrusive-relnums.nvim": { "branch": "main", "commit": "50e15dd64d4e0207f941ca4edbc8908a301604e3" },
   "vim-startuptime": { "branch": "master", "commit": "b6f0d93f6b8cf6eee0b4c94450198ba2d6a05ff6" },
