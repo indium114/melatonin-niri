@@ -39,7 +39,7 @@ $env.HOMEBREW_NO_ENV_HINTS = 1
 
 recall list
 # fastcards amount
-# hocusfocus currentsession
+hocusfocus currentsession
 # termfarm stats
 open ~/.scripts/motds.txt | lines | shuffle | first | $"󰆈 ($in)"
 
