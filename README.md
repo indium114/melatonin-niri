@@ -1,6 +1,6 @@
 # melatonin-niri
 
-**melatonin-niri** is a Hyprland rice I created, with Catppuccin Macchiato colors!
+**melatonin-niri** is a Niri rice I created, with Catppuccin Macchiato colors!
 
 ## Image
 ![The rice in use](using.png)
@@ -8,7 +8,7 @@
 ## Installation
 There are *two methods* to install this rice
 
-### Method 1 - Using [Dotkeeper](https://codeberg.org/StikyPiston/dotkeeper)
+### Method 1 - Using [Dotkeeper](https://github.com/StikyPiston/dotkeeper)
 
 Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 
@@ -16,7 +16,13 @@ Firstly, ensure you have **Dotkeeper** installed. Install **Dotkeeper** with:
 brew install stikypiston/formulae/dotkeeper
 ```
 
-Then, run `dotkeeper fetch https://github.com/StikyPiston/melatonin-niri`
+Then, run the following to install the rice:
+
+```bash
+mkdir -p $HOME/.dotkeep
+cd $HOME/.dotkeep
+git clone https://github.com/stikypiston/melatonin-niri
+```
 
 To activate the rice, ensure all dependencies are installed, and run `dotkeeper activate melatonin-niri`
 
