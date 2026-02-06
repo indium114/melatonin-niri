@@ -127,8 +127,6 @@ require("lazy").setup({
 		{ "nvzone/volt" },
 		{ "stephansama/fzf-nerdfont.nvim", cmd = "FzfNerdfont" },
 		{ "ibhagwan/fzf-lua" },
-		{ "apple/pkl-neovim", ft = "pkl" },
-		{ "charmbracelet/tree-sitter-vhs", ft = "vhs" },
 		{ "echaya/neowiki.nvim", opts = {
 				wiki_dirs = {
 					{ name = "School", path = "~/Notebooks/School" }
@@ -136,7 +134,6 @@ require("lazy").setup({
 			}
 		},
 		{ "nvim-lualine/lualine.nvim", event = "VeryLazy" },
-		{ "dstein64/vim-startuptime", cmd = "StartupTime" },
 		{ "brenoprata10/nvim-highlight-colors", config = function() require("nvim-highlight-colors").setup({}) end },
 		{ "Zeioth/markmap.nvim", opts = {
 				build = "yarn global add markmap-cli",
