@@ -1,16 +1,16 @@
 {
 	"links": [
-		{ "source": "config/ghostty.bridge",              "target": "~/.config/ghostty" },
-		{ "source": "config/MangoHud.bridge",             "target": "~/.config/MangoHud" },
-		{ "source": "config/hypr.bridge",                 "target": "~/.config/hypr" },
-		{ "source": "config/niri.bridge",                 "target": "~/.config/niri" },
-		{ "source": "config/nvim.bridge",                 "target": "~/.config/nvim" },
-		{ "source": "config/zshrc.bridge",                "target": "~/.zshrc" },
+		{ "source": "config/ghostty.bridge",                       "target": "~/.config/ghostty" },
+		{ "source": "config/MangoHud.bridge",                      "target": "~/.config/MangoHud" },
+		{ "source": "config/hypr.bridge",                          "target": "~/.config/hypr" },
+		{ "source": "config/niri.bridge",                          "target": "~/.config/niri" },
+		{ "source": "config/nvim.bridge",                          "target": "~/.config/nvim" },
+		{ "source": "config/zshrc.bridge",                         "target": "~/.zshrc" },
 		{ "source": "config/nushell.frosties/catppuccin_mocha.nu", "target": "~/.config/nushell/catppuccin_mocha.nu" },
 		{ "source": "config/nushell.frosties/config.nu",           "target": "~/.config/nushell/config.nu" },
 		{ "source": "config/nushell.frosties/starship.nu",         "target": "~/.config/nushell/starship.nu" },
 		{ "source": "config/nushell.frosties/zoxide.nu",           "target": "~/.config/nushell/zoxide.nu" },
 		{ "source": "config/nushell.frosties/completers.nu",       "target": "~/.config/nushell/completers.nu" },
-		{ "source": "config/nushell.frosties/aliases.nu",          "target": "~/.config/nushell/aliases.nu" }
-	]
+		{ "source": "config/nushell.frosties/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
+		{ "source": "config/nushell.frosties/keybinds.nu",         "target": "~/.config/nushell/keybinds.nu" } ]
 }
