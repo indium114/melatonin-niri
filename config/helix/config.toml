@@ -79,8 +79,9 @@ right = "no_op"
 "T" = "file_explorer"
 
 [keys.normal." "]
-
 "l" = { "g" = [ ":write-all", ":new", ":insert-output lazygit", ":buffer-close!", ":redraw", ":reload-all" ]}
+"w" = ":write"
+"q" = ":quit"
 
 [keys.normal.h]
 "K" = ":hsplit"
