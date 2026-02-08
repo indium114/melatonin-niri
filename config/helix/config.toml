@@ -5,6 +5,7 @@ line-number = "absolute"
 cursorline  = true
 color-modes = true
 true-color  = true
+scrolloff   = 99
 
 [editor.cursor-shape]
 insert = "bar"
@@ -47,7 +48,6 @@ other-lines = "warning"
 
 [keys.normal]
 ";" = "insert_mode"
-"h" = "no_op"
 "i" = "move_line_up"
 "j" = "move_char_left"
 "k" = "move_line_down"
@@ -57,6 +57,11 @@ up    = "no_op"
 down  = "no_op"
 left  = "no_op"
 right = "no_op"
+
+"C-i" = "jump_view_right"
+"C-k" = "jump_view_up"
+"C-j" = "jump_view_down"
+"C-l" = "jump_view_left"
 
 [keys.insert]
 up    = "no_op"
@@ -69,3 +74,13 @@ up    = "no_op"
 down  = "no_op"
 left  = "no_op"
 right = "no_op"
+
+[keys.normal.t]
+"T" = "file_explorer"
+
+[keys.normal." "]
+"l" = { "g" = [ ":vsplit-new", ":append-output lazygit" ] }
+
+[keys.normal.h]
+"K" = ":hsplit"
+"L" = ":vsplit"
