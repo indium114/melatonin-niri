@@ -455,6 +455,9 @@ enableLSP("bash", "bash-language-server")
 -- > Nix LSP
 enableLSP("nix", "nixd")
 
+-- > Gleam LSP
+enableLSP("gleam", "gleam")
+
 -- Inline diagnostics
 vim.diagnostic.config({
 	virtual_text = true
