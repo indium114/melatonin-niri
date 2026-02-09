@@ -72,3 +72,5 @@ packages:
     - "tmux"
     - "libfuse2"
     - "flatpak"
+  cargo:
+    - "uwu_colors"

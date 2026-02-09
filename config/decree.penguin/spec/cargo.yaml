@@ -1,0 +1,6 @@
+name: cargo
+
+commands:
+  install:     "cargo install {{package}}"
+  remove:      "cargo uninstall {{package}}"
+  upgrade_all: "echo 'no'"
