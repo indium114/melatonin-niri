@@ -64,6 +64,7 @@ packages:
     - "pandoc"
     - "luacheck"
     - "pkgx"
+    - "just"
   deb:
     - "zsh"
     - "mangohud"
