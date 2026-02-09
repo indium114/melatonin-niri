@@ -306,6 +306,48 @@ vim.api.nvim_set_hl(0, "LineNr",      { bg = "#1e2030" })
 vim.api.nvim_set_hl(0, "SignColumn",  { bg = "#1e2030" })
 
 -- Plugin Setup
+local mode_map = {
+	["n"]     = " n",
+	["no"]    = " op",
+	["nov"]   = " op",
+	["noV"]   = " op",
+	["no\22"] = " op",
+	["niI"]   = " ni",
+	["niR"]   = " nr",
+	["niV"]   = " n",
+	["nt"]    = " nt",
+	["v"]     = " v",
+	["vs"]    = " v",
+	["V"]     = " vl",
+	["Vs"]    = " vl",
+	["\22"]   = " vb",
+	["\22s"]  = " vb",
+	["s"]     = " s",
+	["S"]     = " sl",
+	["\19"]   = " sb",
+	["i"]     = " i",
+	["ic"]    = " ic",
+	["ix"]    = " ix",
+	["R"]     = " r",
+	["Rc"]    = " rc",
+	["Rx"]    = " rx",
+	["Rv"]    = " vr",
+	["Rvc"]   = " rvc",
+	["Rvx"]   = " rvx",
+	["c"]     = " c",
+	["cv"]    = " ex",
+	["ce"]    = " ex",
+	["r"]     = " r",
+	["rm"]    = " m",
+	["r?"]    = " c",
+	["!"]     = " sh",
+	["t"]     = " t",
+}
+
+local modes = function()
+	return mode_map[vim.api.nvim_get_mode().mode] or "__"
+end
+
 require("lualine").setup({
 	options = {
 		section_separators   = { right = "", left = "" },
@@ -313,7 +355,7 @@ require("lualine").setup({
 	},
 
 	sections = {
-		lualine_a = { "mode" },
+		lualine_a = { modes },
 		lualine_b = { "filename" },
 		lualine_c = {},
 		lualine_x = { require("triforce.lualine").level, "filetype", "location", "diff" },
