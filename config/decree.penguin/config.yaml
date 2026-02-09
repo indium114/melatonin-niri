@@ -63,6 +63,7 @@ packages:
     - "uv"
     - "pandoc"
     - "luacheck"
+    - "pkgx"
   deb:
     - "zsh"
     - "mangohud"
