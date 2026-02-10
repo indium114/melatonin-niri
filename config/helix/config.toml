@@ -18,9 +18,9 @@ render = true
 [editor.statusline]
 left  = [ "mode", "file-name", "file-modification-indicator" ]
 right = [ "file-type", "position", "version-control", "diagnostics", "spinner" ]
-mode.normal = " N"
-mode.insert = " I"
-mode.select = " S"
+mode.normal = " n"
+mode.insert = " i"
+mode.select = " s"
 
 [editor.lsp]
 enable                    = true
