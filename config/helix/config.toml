@@ -1,11 +1,18 @@
 theme = "catppuccin_mocha"
 
 [editor]
-line-number = "absolute"
-cursorline  = true
-color-modes = true
-true-color  = true
-scrolloff   = 99
+line-number              = "absolute"
+cursorline               = true
+color-modes              = true
+true-color               = true
+scrolloff                = 99
+default-yank-register    = "+"
+bufferline               = "always"
+atomic-save              = true
+trim-final-newlines      = true
+trim-trailing-whitespace = true
+popup-border             = "all"
+editor-config            = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -17,7 +24,7 @@ render = true
 
 [editor.statusline]
 left  = [ "mode", "file-name", "file-modification-indicator" ]
-right = [ "file-type", "position", "version-control", "diagnostics", "spinner" ]
+right = [ "file-type", "position", "version-control", "spacer", "diagnostics", "spinner" ]
 mode.normal = " n"
 mode.insert = " i"
 mode.select = " s"
