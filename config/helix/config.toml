@@ -94,7 +94,7 @@ right = "no_op"
 "T" = "file_explorer"
 
 [keys.normal." "]
-"l" = { "g" = [ ":write-all", ":new", ":insert-output lazygit", ":buffer-close!", ":redraw", ":reload-all" ]}
+"l" = { "g" = [ ":write-all", ":new", ":insert-output lazygit", ":buffer-close!", ":redraw", ":reload-all" ], "f" = ":format"}
 "w" = ":write"
 "q" = ":quit"
 
