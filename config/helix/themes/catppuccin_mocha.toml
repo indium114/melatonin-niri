@@ -51,8 +51,8 @@
 "markup.list" = "teal"
 "markup.list.unchecked" = "overlay2"
 "markup.list.checked" = "green"
-"markup.bold" = { fg = "red", modifiers = ["bold"] }
-"markup.italic" = { fg = "red", modifiers = ["italic"] }
+"markup.bold" = { fg = "blue", modifiers = ["bold"] }
+"markup.italic" = { fg = "green", modifiers = ["italic"] }
 "markup.link.url" = { fg = "blue", modifiers = ["italic", "underlined"] }
 "markup.link.text" = "lavender"
 "markup.link.label" = "sapphire"
@@ -65,13 +65,13 @@
 
 # Inline annotations
 # ------------------
-"important"  = { fg = "red",    modifiers = ["bold"] }
-"question"   = { fg = "orange", modifiers = ["bold"] }
-"study"      = { fg = "blue",   modifiers = ["bold"] }
-"definition" = { fg = "purple", modifiers = ["bold"] }
-"example"    = { fg = "green",  modifiers = ["bold"] }
-"review"     = { fg = "peach",  modifiers = ["bold"] }
-"memorise"   = { fg = "pink",   modifiers = ["bold"] }
+"important"  = { bg = "maroon", fg = "black", modifiers = ["bold"] }
+"question"   = { bg = "orange", fg = "black", modifiers = ["bold"] }
+"study"      = { bg = "blue",   fg = "black", modifiers = ["bold"] }
+"definition" = { bg = "mauve",  fg = "black", modifiers = ["bold"] }
+"example"    = { bg = "green",  fg = "black", modifiers = ["bold"] }
+"review"     = { bg = "peach",  fg = "black", modifiers = ["bold"] }
+"memorise"   = { bg = "pink",   fg = "black", modifiers = ["bold"] }
 
 # User Interface
 # --------------
