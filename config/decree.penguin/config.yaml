@@ -76,3 +76,4 @@ packages:
     - "flatpak"
   cargo:
     - "uwu_colors"
+    - "dealve-tui"
