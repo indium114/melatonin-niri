@@ -1,0 +1,6 @@
+[[language]]
+name = "markdown"
+language-servers = [ "uwu-colors" ]
+
+[language-server.uwu-colors]
+command = "uwu_colors"
