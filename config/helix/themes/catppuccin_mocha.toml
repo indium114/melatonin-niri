@@ -63,6 +63,16 @@
 "diff.minus" = "red"
 "diff.delta" = "blue"
 
+# Inline annotations
+# ------------------
+"important"  = { fg = "red",    modifiers = ["bold"] }
+"question"   = { fg = "orange", modifiers = ["bold"] }
+"study"      = { fg = "blue",   modifiers = ["bold"] }
+"definition" = { fg = "purple", modifiers = ["bold"] }
+"example"    = { fg = "green",  modifiers = ["bold"] }
+"review"     = { fg = "peach",  modifiers = ["bold"] }
+"memorise"   = { fg = "pink",   modifiers = ["bold"] }
+
 # User Interface
 # --------------
 "ui.background" = { fg = "text", bg = "" }
@@ -72,7 +82,7 @@
 
 "ui.statusline" = { fg = "subtext1", bg = "mantle" }
 "ui.statusline.inactive" = { fg = "surface2", bg = "mantle" }
-"ui.statusline.normal" = { fg = "base", bg = "rosewater", modifiers = ["bold"] }
+"ui.statusline.normal" = { fg = "base", bg = "mauve", modifiers = ["bold"] }
 "ui.statusline.insert" = { fg = "base", bg = "green", modifiers = ["bold"]  }
 "ui.statusline.select" = { fg = "base", bg = "lavender", modifiers = ["bold"]  }
 
