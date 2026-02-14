@@ -1,6 +1,9 @@
 [[language]]
 name = "markdown"
-language-servers = [ "uwu-colors" ]
+language-servers = [ "uwu-colors", "marksman" ]
 
 [language-server.uwu-colors]
 command = "uwu_colors"
+
+[language-server.marksman]
+command = "marksman"
