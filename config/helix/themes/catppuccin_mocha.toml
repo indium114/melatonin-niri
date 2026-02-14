@@ -66,7 +66,7 @@
 # Inline annotations
 # ------------------
 "important"  = { bg = "maroon", fg = "black", modifiers = ["bold"] }
-"question"   = { bg = "orange", fg = "black", modifiers = ["bold"] }
+"question"   = { bg = "peach", fg = "black", modifiers = ["bold"] }
 "study"      = { bg = "blue",   fg = "black", modifiers = ["bold"] }
 "definition" = { bg = "mauve",  fg = "black", modifiers = ["bold"] }
 "example"    = { bg = "green",  fg = "black", modifiers = ["bold"] }
