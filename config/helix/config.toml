@@ -73,12 +73,6 @@ right = "no_op"
 "C-j" = "jump_view_down"
 "C-l" = "jump_view_left"
 
-[keys.insert]
-up    = "no_op"
-down  = "no_op"
-left  = "no_op"
-right = "no_op"
-
 [keys.select]
 up    = "no_op"
 down  = "no_op"
