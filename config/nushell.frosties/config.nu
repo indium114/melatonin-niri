@@ -38,7 +38,7 @@ $env.GOPATH            = "/home/distrorockhopper/go"
 $env.HOMEBREW_NO_ENV_HINTS = 1
 
 recall list
-# fastcards amount
+fastcards amount
 hocusfocus currentsession
 # termfarm stats
 open ~/.scripts/motds.txt | lines | shuffle | first | $"󰆈 ($in)"
