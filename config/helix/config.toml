@@ -73,6 +73,8 @@ right = "no_op"
 "C-j" = "jump_view_down"
 "C-l" = "jump_view_left"
 
+"'" = "collapse_selection"
+
 [keys.select]
 up    = "no_op"
 down  = "no_op"
