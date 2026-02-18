@@ -67,6 +67,7 @@ packages:
     - "just"
     - "glow"
     - "charmbracelet/tap/freeze"
+    - "gopls"
   deb:
     - "zsh"
     - "mangohud"
