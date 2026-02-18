@@ -66,6 +66,7 @@ packages:
     - "pkgx"
     - "just"
     - "glow"
+    - "charmbracelet/tap/freeze"
   deb:
     - "zsh"
     - "mangohud"
