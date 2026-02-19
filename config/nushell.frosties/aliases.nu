@@ -18,7 +18,7 @@ alias mv    = mv -v
 alias cp    = cp -v
 alias rm    = rm -v
 alias mkdir = mkdir -v
-alias tree  = tree -LC 1
+alias tree  = eza --icons=always --group-directories-first --tree --level 1
 alias ncdu  = ncdu --color dark --show-percent
 alias clear = clear -k
 
