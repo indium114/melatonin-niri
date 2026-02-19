@@ -12,6 +12,7 @@
 alias l  = eza --icons=always --group-directories-first
 alias la = l -a
 alias ll = l -a1
+alias lt = eza --icons=always --group-directories-first --tree --level 1
 
 alias mv    = mv -v
 alias cp    = cp -v
