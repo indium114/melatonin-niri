@@ -1,4 +1,4 @@
-@import "mocha.css"; 
+@import "mocha.css";
 
 * {
     font-family: "Martian Mono Condensed Semibold";
@@ -52,7 +52,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background: linear-gradient(@maroon, @blue);
+    background: linear-gradient(@mauve, @blue);
 	border-radius: 16px;
 	color: @crust;
 	transition: all 0.3s ease-in-out;
