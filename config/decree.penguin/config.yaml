@@ -68,7 +68,6 @@ packages:
     - "glow"
     - "charmbracelet/tap/freeze"
     - "gopls"
-    - "kdenlive"
   deb:
     - "zsh"
     - "mangohud"
@@ -78,5 +77,6 @@ packages:
     - "tmux"
     - "libfuse2"
     - "flatpak"
+    - "kdenlive"
   cargo:
     - "uwu_colors"
