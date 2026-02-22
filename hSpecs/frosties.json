@@ -8,6 +8,7 @@
 		{ "source": "config/nushell.frosties/catppuccin_mocha.nu", "target": "~/.config/nushell/catppuccin_mocha.nu" },
 		{ "source": "config/nushell.frosties/completers.nu",       "target": "~/.config/nushell/completers.nu" },
 		{ "source": "config/nushell.frosties/config.nu",           "target": "~/.config/nushell/config.nu" },
+		{ "source": "config/nushell.frosties/direnv.nu",           "target": "~/.config/nushell/direnv.nu" },
 		{ "source": "config/nushell.frosties/starship.nu",         "target": "~/.config/nushell/starship.nu" },
 		{ "source": "config/nushell.frosties/zoxide.nu",           "target": "~/.config/nushell/zoxide.nu" },
 		{ "source": "config/nvim.bridge",                          "target": "~/.config/nvim" },
