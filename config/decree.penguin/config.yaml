@@ -77,5 +77,6 @@ packages:
     - "tmux"
     - "libfuse2"
     - "flatpak"
+    - "kdenlive"
   cargo:
     - "uwu_colors"
