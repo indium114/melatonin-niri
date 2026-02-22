@@ -9,7 +9,7 @@
 # | (_| | | | |  __/ | | \ V /| | | | |_| |
 #  \__,_|_|_|  \___|_| |_|\_(_)_| |_|\__,_|
 
-use std/config
+use std/config *
 
 $env.config.hooks.env_change.PWD = $env.config.hooks.env_change.PWD? | default []
 
