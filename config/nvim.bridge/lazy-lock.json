@@ -3,7 +3,7 @@
   "barbar.nvim": { "branch": "master", "commit": "539d73def39c9172b4d4d769f14090e08f37b29d" },
   "blink.cmp": { "branch": "main", "commit": "b4d379393882561f9055abe780342ee00f02c573" },
   "catppuccin": { "branch": "main", "commit": "0a5de4da015a175f416d6ef1eda84661623e0500" },
-  "cheaty.nvim": { "branch": "main", "commit": "3d38b58a47449292ee46001d26bfca6dab223429" },
+  "cheaty.nvim": { "branch": "main", "commit": "55b85423f629c4b1cde6de121363099f6ed74913" },
   "friendly-snippets": { "branch": "main", "commit": "6cd7280adead7f586db6fccbd15d2cac7e2188b9" },
   "fzf-lua": { "branch": "main", "commit": "76ddd6b56875bf4f6fd13848728207e738bb75a3" },
   "fzf-nerdfont.nvim": { "branch": "main", "commit": "642164f28a74e45e0607df5006f9086c0914e117" },
