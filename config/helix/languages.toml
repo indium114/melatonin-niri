@@ -7,3 +7,9 @@ command = "uwu_colors"
 
 [language-server.marksman]
 command = "marksman"
+
+[language.soft-wrap]
+enable            = true
+max-wrap          = 25
+max-indent-retain = 40
+wrap-indicator    = "󰘍 "
