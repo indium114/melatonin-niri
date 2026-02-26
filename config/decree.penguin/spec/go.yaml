@@ -1,0 +1,6 @@
+name: go
+
+commands:
+  install:     "go install {{package}}"
+  remove:      "echo 'no'"
+  upgrade_all: "echo 'no'"
