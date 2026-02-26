@@ -81,3 +81,6 @@ packages:
     - "kdenlive"
   cargo:
     - "uwu_colors"
+  go:
+    - "github.com/stikypiston/theatre@latest"
+    - "github.com/spf13/cobra-cli@latest"
