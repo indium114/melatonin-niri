@@ -1,0 +1,11 @@
+name: "Nemo"
+description: "File Manager"
+icon: "󰝰"
+command: "nemo"
+context:
+  - name: "Open Home folder"
+    command: "nemo ~"
+  - name: "Open Root folder"
+    command: "nemo /"
+  - name: "Open Documents folder"
+    command: "nemo ~/Documents"
