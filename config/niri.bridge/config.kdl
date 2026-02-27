@@ -118,6 +118,15 @@ window-rule {
 	max-height 200
 }
 
+window-rule {
+	match title=r#"^Spyglass$"#
+
+	open-floating true
+
+	max-width 700
+	max-height 670
+}
+
 // Open the Firefox picture-in-picture player as floating by default.
 window-rule {
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
@@ -257,7 +266,8 @@ binds {
 
     Mod+Shift+P { power-off-monitors; }
 
-    Mod+Grave { spawn "vicinae" "toggle"; }
+    Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+spawn-window"; }
+    Mod+Ctrl+Grave { spawn "vicinae" "toggle"; }
 	Mod+Return { spawn "ghostty"; }
 	Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
 	Mod+Semicolon { spawn "flatpak " "run " "app.zen_browser.zen"; }
