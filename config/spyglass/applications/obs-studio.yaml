@@ -1,4 +1,4 @@
 name: "OBS Studio"
 description: "Open Broadcaster Software"
 icon: ""
-command: "obs"
+command: "obs & sleep 3"
