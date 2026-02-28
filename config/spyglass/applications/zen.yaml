@@ -1,7 +1,7 @@
 name: "Zen Browser"
 description: "Browse the Internet"
 icon: "󰖟"
-command: "zen"
+command: "zen --new-window"
 context:
   - name: "New window"
     command: "zen --new-window"
