@@ -39,6 +39,11 @@ alias cal = cal -t
 
 alias cd = z
 
+alias da = dirs add
+alias dg = dirs goto
+alias dr = dirs drop
+alias dn = dirs next
+alias dp = dirs prev
 
 def chafa [...args] {
   with-env { TERM: xterm-kitty } {
