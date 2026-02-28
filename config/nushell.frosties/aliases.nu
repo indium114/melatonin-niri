@@ -34,7 +34,7 @@ alias gb = git blame
 alias sb  = soft browse
 alias lg  = lazygit
 alias man = tldr
-alias sf  = spf
+alias sf  = superfile
 alias cal = cal -t
 
 alias yz = yazi
