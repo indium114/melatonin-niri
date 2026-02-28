@@ -30,6 +30,8 @@ source aliases.nu
 source completers.nu
 source direnv.nu
 
+use std/dirs
+
 $env.config.show_banner = false
 
 $env.BAT_THEME         = "Catppuccin Mocha"
