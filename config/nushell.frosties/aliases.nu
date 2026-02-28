@@ -37,7 +37,6 @@ alias man = tldr
 alias sf  = superfile
 alias cal = cal -t
 
-alias yz = yazi
 alias cd = z
 
 
@@ -45,4 +44,14 @@ def chafa [...args] {
   with-env { TERM: xterm-kitty } {
     ^chafa ...$args
   }
+}
+
+def --env yz [...args] {
+	let tmp = (mktemp -t "yazi-cwd.XXXXXX")
+	^yazi ...$args --cwd-file $tmp
+	let cwd = (open $tmp)
+	if $cwd != $env.PWD and ($cwd | path exists) {
+		cd $cwd
+	}
+	rm -fp $tmp
 }
