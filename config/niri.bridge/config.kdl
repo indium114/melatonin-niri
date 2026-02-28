@@ -266,7 +266,7 @@ binds {
 
     Mod+Shift+P { power-off-monitors; }
 
-    Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+spawn-window"; }
+    Mod+Grave { spawn "ghostty" "--title=Spyglass" "-e" "spyglass" "+new-window"; }
     Mod+Ctrl+Grave { spawn "vicinae" "toggle"; }
 	Mod+Return { spawn "ghostty"; }
 	Mod+Shift+Grave { spawn "wlogout" "-b" "4"; }
