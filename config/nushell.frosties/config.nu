@@ -22,6 +22,8 @@ $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/gem/ruby/
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/go/bin" )
 
+use std/dirs
+
 source zoxide.nu
 source starship.nu
 source catppuccin_mocha.nu
@@ -29,8 +31,6 @@ source catppuccin_mocha.nu
 source aliases.nu
 source completers.nu
 source direnv.nu
-
-use std/dirs
 
 $env.config.show_banner = false
 
