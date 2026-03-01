@@ -1,4 +1,4 @@
 name: "LocalSend"
 description: "Send files between devices"
 icon: ""
-command: "localsend_app"
+command: "localsend_app & sleep 5"

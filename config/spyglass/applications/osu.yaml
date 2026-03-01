@@ -1,4 +1,4 @@
 name: "osu!"
 description: "Rhythm is just a *click* away!"
 icon: ""
-command: "mangohud osu!"
+command: "mangohud osu! & sleep 5"
