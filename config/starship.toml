@@ -11,5 +11,5 @@ success_symbol = "[>](bold green)"
 error_symbol = "[<](bold red)"
 
 [nix_shell]
-format = "[$symbol](bold purple) "
+format = "[$symbol](bold cyan) "
 symbol = "󱄅"
