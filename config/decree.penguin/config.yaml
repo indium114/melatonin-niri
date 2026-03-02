@@ -83,3 +83,4 @@ packages:
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
+    - "github.com/stikypiston/satchel@latest"
