@@ -1,5 +1,5 @@
 settings:
-  autoUpgrade: true
+  autoUpgrade: false
 
 packages:
   brew:
@@ -19,7 +19,6 @@ packages:
     - "eza"
     - "aerc"
     - "yazi"
-    - "swift"
     - "gh"
     - "tlrc"
     - "delta"
@@ -28,7 +27,6 @@ packages:
     - "zinit"
     - "utftex"
     - "amfora"
-    - "w3m"
     - "luarocks"
     - "ripgrep"
     - "helix"
