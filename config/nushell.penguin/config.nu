@@ -11,16 +11,16 @@
 #                        |___/
 
 $env.PATH = ( $env.PATH | prepend "/home/linuxbrew/.linuxbrew/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/bob/nvim-bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/bob/nvim-bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/Documents/PlaydateSDK-3.0.2/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/Applications" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.scripts" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.cargo/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/share/gem/ruby/3.4.0/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/.local/bin" )
-$env.PATH = ( $env.PATH | prepend "/home/distrorockhopper/go/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/share/bob/nvim-bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.rustup/toolchains/nightly-x86_64-unknown-linux-gnu/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/share/bob/nvim-bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/Documents/PlaydateSDK-3.0.2/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/Applications" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.scripts" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.cargo/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/share/gem/ruby/3.4.0/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/.local/bin" )
+$env.PATH = ( $env.PATH | prepend "/home/indium114/go/bin" )
 
 source catppuccin_mocha.nu
 source starship.nu
