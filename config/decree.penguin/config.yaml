@@ -56,7 +56,7 @@ packages:
     - "gopls"
     - "yamlfmt"
     - "marksman"
-    - "oven-sh/bun"
+    - "oven-sh/bun/bun"
   deb:
     - "zsh"
     - "mangohud"
