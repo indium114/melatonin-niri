@@ -54,6 +54,7 @@ packages:
     - "yamlfmt"
     - "marksman"
     - "oven-sh/bun/bun"
+    - "skate"
   deb:
     - "figlet"
     - "tmux"
