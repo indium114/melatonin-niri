@@ -1,8 +1,8 @@
 input {
     keyboard {
         xkb {
-				layout "us"
-				variant "qwerty"
+			layout "us"
+			variant "qwerty"
 		}
         numlock
     }
@@ -28,10 +28,10 @@ output "eDP-1" {
 }
 
 output "HDMI-A-1" {
-		mode "1280x1024@60.020"
-		scale 1
-		transform "normal"
-		position x=0 y=0
+	mode "1280x1024@60.020"
+	scale 1
+	transform "normal"
+	position x=0 y=0
 }
 
 environment {
@@ -156,25 +156,25 @@ binds {
 
     Mod+Q { close-window; }
 
-    Mod+Left      { focus-column-left; }
-    Mod+Down      { focus-window-down; }
-    Mod+Up        { focus-window-up; }
-    Mod+Right     { focus-column-right; }
+    Mod+J { focus-column-left; }
+    Mod+K { focus-window-down; }
+    Mod+I { focus-window-up; }
+    Mod+L { focus-column-right; }
 
-    Mod+Shift+Left     { move-column-left; }
-    Mod+Shift+Down     { move-window-down; }
-    Mod+Shift+Up       { move-window-up; }
-    Mod+Shift+Right    { move-column-right; }
+    Mod+Shift+J { move-column-left; }
+    Mod+Shift+K { move-window-down; }
+    Mod+Shift+I { move-window-up; }
+    Mod+Shift+L { move-column-right; }
 
     Mod+Home { focus-column-first; }
     Mod+End  { focus-column-last; }
     Mod+Ctrl+Home { move-column-to-first; }
     Mod+Ctrl+End  { move-column-to-last; }
 
-    Mod+Shift+Ctrl+Left     { move-column-to-monitor-left; }
-    Mod+Shift+Ctrl+Down     { move-column-to-monitor-down; }
-    Mod+Shift+Ctrl+Up       { move-column-to-monitor-up; }
-    Mod+Shift+Ctrl+Right    { move-column-to-monitor-right; }
+    Mod+Shift+Ctrl+J { move-column-to-monitor-left; }
+    Mod+Shift+Ctrl+K { move-column-to-monitor-down; }
+    Mod+Shift+Ctrl+I { move-column-to-monitor-up; }
+    Mod+Shift+Ctrl+L { move-column-to-monitor-right; }
 
     Mod+Page_Down      { focus-workspace-down; }
     Mod+Page_Up        { focus-workspace-up; }
