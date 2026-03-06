@@ -1,10 +1,10 @@
 {
 	"links": [
-		{ "source": "config/ghostty.bridge",  "target": "~/.config/ghostty" },
-		{ "source": "config/MangoHud.bridge", "target": "~/.config/MangoHud" },
-		{ "source": "config/hypr.bridge",     "target": "~/.config/hypr" },
-		{ "source": "config/niri.bridge",     "target": "~/.config/niri" },
-		{ "source": "config/nvim.bridge",     "target": "~/.config/nvim" },
-		{ "source": "config/zshrc.bridge",    "target": "~/.zshrc" }
+		{ "source": "config/ghostty.frosties",  "target": "~/.config/ghostty" },
+		{ "source": "config/MangoHud.frosties", "target": "~/.config/MangoHud" },
+		{ "source": "config/hypr.frosties",     "target": "~/.config/hypr" },
+		{ "source": "config/niri.frosties",     "target": "~/.config/niri" },
+		{ "source": "config/nvim.frosties",     "target": "~/.config/nvim" },
+		{ "source": "config/zshrc.frosties",    "target": "~/.zshrc" }
 	]
 }

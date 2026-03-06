@@ -2,7 +2,7 @@
 	"links": [
 		{ "source": "config/ghostty.penguin",                     "target": "~/.config/ghostty" },
 		{ "source": "config/MangoHud.penguin",                    "target": "~/.config/MangoHud" },
-		{ "source": "config/nvim.bridge",                         "target": "~/.config/nvim" },
+		{ "source": "config/nvim.frosties",                       "target": "~/.config/nvim" },
 		{ "source": "config/decree.penguin",                      "target": "~/.config/decree" },
 		{ "source": "config/zshrc.penguin",                       "target": "~/.zshrc" },
 		{ "source": "config/nushell.penguin/catppuccin_mocha.nu", "target": "~/.config/nushell/catppuccin_mocha.nu" },
