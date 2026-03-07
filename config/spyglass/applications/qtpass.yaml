@@ -1,0 +1,4 @@
+name: "QtPass"
+description: "Manage passwords"
+icon: "󰢁"
+command: "qtpass & sleep 5"
