@@ -27,3 +27,18 @@ def "nu-complete zoxide path" [context: string] {
 def --env --wrapped z [...rest: string@"nu-complete zoxide path"] {
   __zoxide_z ...$rest
 }
+
+# Carapace completion
+
+let carapace_completer = {|spans|
+  carapace $spans.0 nushell ...$spans | from json
+}
+
+$env.config = {
+  completions: {
+    external: {
+      enable: true
+      completer: $carapace_completer
+    }
+  }
+}
