@@ -81,6 +81,12 @@ web_client {
     font "monospace"
 }
 
+ui {
+    pane_frames {
+        rounded_corners true
+    }
+}
+
 theme "catppuccin-mocha"
 default_mode "locked"
 default_layout "zjstatus"
