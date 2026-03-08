@@ -15,7 +15,7 @@ layout {
                 hide_frame_for_single_pane "true"
 
                 mode_normal "#[bg=black,fg=white] (Esc, g, p, t)"
-                mode_pane   "#[bg=green,fg=black] (c, i, j, k, l, p)"
+                mode_pane   "#[bg=green,fg=black] (c, i, j, k, l, n, p)"
                 mode_tab    "#[bg=red,fg=black]󰝜 (c, n, j, l)"
                 mode_locked "#[bg=blue]  "
 
