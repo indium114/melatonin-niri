@@ -29,6 +29,7 @@
 		{ "source": "config/television",           "target": "~/.config/television" },
 		{ "source": "config/ytsurf/config",        "target": "~/.config/ytsurf/config" },
 		{ "source": "config/gh-dash",              "target": "~/.config/gh-dash" },
-		{ "source": "config/spyglass",             "target": "~/.config/spyglass" }
+		{ "source": "config/spyglass",             "target": "~/.config/spyglass" },
+		{ "source": "config/zellij",               "target": "~/.config/zellij" }
 	]
 }
