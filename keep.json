@@ -1,7 +1,6 @@
 {
 	"links": [
 		{ "source": "config/kitty",                "target": "~/.config/kitty" },
-		{ "source": "config/waybar",               "target": "~/.config/waybar" },
 		{ "source": "config/wofi",                 "target": "~/.config/wofi" },
 		{ "source": "config/fastfetch",            "target": "~/.config/fastfetch" },
 		{ "source": "config/bat",                  "target": "~/.config/bat" },
