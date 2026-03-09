@@ -5,8 +5,6 @@
 		{ "source": "config/fastfetch",            "target": "~/.config/fastfetch" },
 		{ "source": "config/bat",                  "target": "~/.config/bat" },
 		{ "source": "config/bashrc",               "target": "~/.bashrc" },
-		{ "source": "config/gtk-3.0",              "target": "~/.config/gtk-3.0" },
-		{ "source": "config/gtk-4.0",              "target": "~/.config/gtk-4.0" },
 		{ "source": "config/cava",                 "target": "~/.config/cava" },
 		{ "source": "config/swaync",               "target": "~/.config/swaync" },
 		{ "source": "config/lf",                   "target": "~/.config/lf" },
