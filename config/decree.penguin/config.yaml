@@ -24,7 +24,6 @@ packages:
     - "lazygit"
     - "ncdu"
     - "utftex"
-    - "amfora"
     - "luarocks"
     - "ripgrep"
     - "helix"
@@ -60,7 +59,6 @@ packages:
     - "figlet"
     - "tmux"
     - "libfuse2"
-    - "birdfont"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
