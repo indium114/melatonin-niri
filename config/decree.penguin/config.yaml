@@ -55,6 +55,7 @@ packages:
     - "marksman"
     - "oven-sh/bun/bun"
     - "skate"
+    - "zellij"
   deb:
     - "figlet"
     - "tmux"
@@ -64,3 +65,4 @@ packages:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
     - "github.com/stikypiston/satchel@latest"
+    - "github.com/stikypiston/jots@latest"
