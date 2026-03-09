@@ -1,16 +1,17 @@
-#!/usr/bin/env bash
+#!/usr/bin/env nu
 
-WALL_DIR="/home/distrorockhopper/Pictures/wallpapers/space"
-TARGET="/home/distrorockhopper/Pictures/wallpapers/currentpaper"
+let wall_dir = "/home/distrorockhopper/Pictures/wallpapers/space"
+let target = "/home/distrorockhopper/Pictures/wallpapers/currentpaper"
 
 # pick a random file
-random_file=$(find "$WALL_DIR" -type f | shuf -n 1)
+let random_file = (ls $wall_dir | where type == file | get name | shuffle | first)
 
 # remove old symlink or file
-rm -f "$TARGET"
+rm -f $target
 
 # create new symlink
-ln -s "$random_file" "$TARGET"
+ln -s $random_file $target
 
+# restart hyprpaper
 pkill hyprpaper
 hyprpaper &
