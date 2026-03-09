@@ -12,5 +12,6 @@
 		{ "source": "config/nushell.penguin/completers.nu",       "target": "~/.config/nushell/completers.nu" },
 		{ "source": "config/nushell.penguin/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
 		{ "source": "config/tmux",                                "target": "~/.config/tmux" },
+		{ "source": "config/starship.toml",                       "target": "~/.config/starship.toml" }
 	]
 }
