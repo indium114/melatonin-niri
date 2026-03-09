@@ -1,7 +1,6 @@
 {
 	"links": [
 		{ "source": "config/MangoHud.frosties",                    "target": "~/.config/MangoHud" },
-		{ "source": "config/ghostty.frosties",                     "target": "~/.config/ghostty" },
 		{ "source": "config/hypr.frosties",                        "target": "~/.config/hypr" },
 		{ "source": "config/niri.frosties",                        "target": "~/.config/niri" },
 		{ "source": "config/nushell.frosties/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
