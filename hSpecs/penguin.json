@@ -10,6 +10,7 @@
 		{ "source": "config/nushell.penguin/starship.nu",         "target": "~/.config/nushell/starship.nu" },
 		{ "source": "config/nushell.penguin/zoxide.nu",           "target": "~/.config/nushell/zoxide.nu" },
 		{ "source": "config/nushell.penguin/completers.nu",       "target": "~/.config/nushell/completers.nu" },
-		{ "source": "config/nushell.penguin/aliases.nu",          "target": "~/.config/nushell/aliases.nu" }
+		{ "source": "config/nushell.penguin/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
+		{ "source": "config/tmux",                                "target": "~/.config/tmux" },
 	]
 }
