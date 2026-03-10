@@ -9,6 +9,5 @@
 		{ "source": "config/zathura",              "target": "~/.config/zathura" },
 		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" },
 		{ "source": "config/ytsurf/config",        "target": "~/.config/ytsurf/config" },
-		{ "source": "config/spyglass",             "target": "~/.config/spyglass" }
 	]
 }
