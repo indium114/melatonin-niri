@@ -15,7 +15,6 @@
 		{ "source": "config/amfora",               "target": "~/.config/amfora" },
 		{ "source": "config/zathura",              "target": "~/.config/zathura" },
 		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" },
-		{ "source": "config/helix",                "target": "~/.config/helix" },
 		{ "source": "config/ytsurf/config",        "target": "~/.config/ytsurf/config" },
 		{ "source": "config/spyglass",             "target": "~/.config/spyglass" },
 		{ "source": "config/zellij",               "target": "~/.config/zellij" }
