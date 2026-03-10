@@ -1,6 +1,5 @@
 {
 	"links": [
-		{ "source": "config/MangoHud.frosties",                    "target": "~/.config/MangoHud" },
 		{ "source": "config/nvim.frosties",                        "target": "~/.config/nvim" },
 		{ "source": "config/zshrc.frosties",                       "target": "~/.zshrc" }
 	]
