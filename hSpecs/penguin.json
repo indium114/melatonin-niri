@@ -18,6 +18,7 @@
 		{ "source": "config/gh-dash",                             "target": "~/.config/gh-dash" },
 		{ "source": "config/lazygit",                             "target": "~/.config/lazygit" },
 		{ "source": "config/btop",                                "target": "~/.config/btop" },
-		{ "source": "config/television",                          "target": "~/.config/television" }
+		{ "source": "config/television",                          "target": "~/.config/television" },
+		{ "source": "config/bat",                                 "target": "~/.config/bat" }
 	]
 }

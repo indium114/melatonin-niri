@@ -3,7 +3,6 @@
 		{ "source": "config/kitty",                "target": "~/.config/kitty" },
 		{ "source": "config/wofi",                 "target": "~/.config/wofi" },
 		{ "source": "config/fastfetch",            "target": "~/.config/fastfetch" },
-		{ "source": "config/bat",                  "target": "~/.config/bat" },
 		{ "source": "config/bashrc",               "target": "~/.bashrc" },
 		{ "source": "config/swaync",               "target": "~/.config/swaync" },
 		{ "source": "config/lf",                   "target": "~/.config/lf" },
