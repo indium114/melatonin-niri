@@ -16,6 +16,7 @@
 		{ "source": "config/yazi",                                "target": "~/.config/yazi" },
 		{ "source": "config/cava",                                "target": "~/.config/cava" },
 		{ "source": "config/gh-dash",                             "target": "~/.config/gh-dash" },
-		{ "source": "config/lazygit",                             "target": "~/.config/lazygit" }
+		{ "source": "config/lazygit",                             "target": "~/.config/lazygit" },
+		{ "source": "config/btop",                                "target": "~/.config/btop" }
 	]
 }

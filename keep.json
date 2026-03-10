@@ -9,7 +9,6 @@
 		{ "source": "config/lf",                   "target": "~/.config/lf" },
 		{ "source": "config/fuzzel",               "target": "~/.config/fuzzel" },
 		{ "source": "scripts",                     "target": "~/.scripts" },
-		{ "source": "config/btop",                 "target": "~/.config/btop" },
 		{ "source": "config/uxplayrc",             "target": "~/.uxplayrc" },
 		{ "source": "config/fsh",                  "target": "~/.config/fsh" },
 		{ "source": "config/catppuccin.gitconfig", "target": "~/.config/catppuccin.gitconfig" },
