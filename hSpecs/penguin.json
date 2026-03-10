@@ -13,6 +13,7 @@
 		{ "source": "config/nushell.penguin/aliases.nu",          "target": "~/.config/nushell/aliases.nu" },
 		{ "source": "config/tmux",                                "target": "~/.config/tmux" },
 		{ "source": "config/starship.toml",                       "target": "~/.config/starship.toml" },
-		{ "source": "config/yazi",                                "target": "~/.config/yazi" }
+		{ "source": "config/yazi",                                "target": "~/.config/yazi" },
+		{ "source": "config/cava",                                "target": "~/.config/cava" }
 	]
 }
