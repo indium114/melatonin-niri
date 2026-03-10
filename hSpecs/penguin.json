@@ -15,6 +15,7 @@
 		{ "source": "config/starship.toml",                       "target": "~/.config/starship.toml" },
 		{ "source": "config/yazi",                                "target": "~/.config/yazi" },
 		{ "source": "config/cava",                                "target": "~/.config/cava" },
-		{ "source": "config/gh-dash",                             "target": "~/.config/gh-dash" }
+		{ "source": "config/gh-dash",                             "target": "~/.config/gh-dash" },
+		{ "source": "config/lazygit",                             "target": "~/.config/lazygit" }
 	]
 }
