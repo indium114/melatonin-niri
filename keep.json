@@ -1,22 +1,14 @@
 {
 	"links": [
-		{ "source": "config/kitty",                "target": "~/.config/kitty" },
-		{ "source": "config/wofi",                 "target": "~/.config/wofi" },
 		{ "source": "config/fastfetch",            "target": "~/.config/fastfetch" },
-		{ "source": "config/bashrc",               "target": "~/.bashrc" },
-		{ "source": "config/swaync",               "target": "~/.config/swaync" },
-		{ "source": "config/lf",                   "target": "~/.config/lf" },
-		{ "source": "config/fuzzel",               "target": "~/.config/fuzzel" },
 		{ "source": "scripts",                     "target": "~/.scripts" },
 		{ "source": "config/uxplayrc",             "target": "~/.uxplayrc" },
-		{ "source": "config/fsh",                  "target": "~/.config/fsh" },
 		{ "source": "config/catppuccin.gitconfig", "target": "~/.config/catppuccin.gitconfig" },
 		{ "source": "config/wlogout",              "target": "~/.config/wlogout" },
 		{ "source": "config/amfora",               "target": "~/.config/amfora" },
 		{ "source": "config/zathura",              "target": "~/.config/zathura" },
 		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" },
 		{ "source": "config/ytsurf/config",        "target": "~/.config/ytsurf/config" },
-		{ "source": "config/spyglass",             "target": "~/.config/spyglass" },
-		{ "source": "config/zellij",               "target": "~/.config/zellij" }
+		{ "source": "config/spyglass",             "target": "~/.config/spyglass" }
 	]
 }
