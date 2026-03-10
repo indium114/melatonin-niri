@@ -6,6 +6,5 @@
 		{ "source": "config/catppuccin.gitconfig", "target": "~/.config/catppuccin.gitconfig" },
 		{ "source": "config/wlogout",              "target": "~/.config/wlogout" },
 		{ "source": "config/amfora",               "target": "~/.config/amfora" },
-		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" }
 	]
 }
