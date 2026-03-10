@@ -20,6 +20,7 @@
 		{ "source": "config/btop",                                "target": "~/.config/btop" },
 		{ "source": "config/television",                          "target": "~/.config/television" },
 		{ "source": "config/bat",                                 "target": "~/.config/bat" },
-		{ "source": "config/helix",                               "target": "~/.config/helix" }
+		{ "source": "config/helix",                               "target": "~/.config/helix" },
+		{ "source": "config/ytsurf/config",                       "target": "~/.config/ytsurf/config" }
 	]
 }

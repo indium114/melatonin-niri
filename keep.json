@@ -7,7 +7,6 @@
 		{ "source": "config/wlogout",              "target": "~/.config/wlogout" },
 		{ "source": "config/amfora",               "target": "~/.config/amfora" },
 		{ "source": "config/zathura",              "target": "~/.config/zathura" },
-		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" },
-		{ "source": "config/ytsurf/config",        "target": "~/.config/ytsurf/config" },
+		{ "source": "config/wallpaper.jpg",        "target": "~/.wallpaper" }
 	]
 }
