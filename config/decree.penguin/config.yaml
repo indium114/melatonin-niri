@@ -55,6 +55,8 @@ packages:
     - "oven-sh/bun/bun"
     - "skate"
     - "zellij"
+    - "cabal-install"
+    - "haskell-language-server"
   deb:
     - "figlet"
     - "tmux"
