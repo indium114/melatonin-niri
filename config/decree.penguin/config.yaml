@@ -57,6 +57,7 @@ packages:
     - "zellij"
     - "cabal-install"
     - "haskell-language-server"
+    - "ghc"
   deb:
     - "figlet"
     - "tmux"
