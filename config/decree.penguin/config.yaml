@@ -55,6 +55,7 @@ packages:
     - "oven-sh/bun/bun"
     - "skate"
     - "zellij"
+    - "asciinema"
   deb:
     - "figlet"
     - "tmux"
