@@ -61,6 +61,7 @@ packages:
     - "tmux"
     - "libfuse2"
     - "pkg-config"
+    - "nala"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
