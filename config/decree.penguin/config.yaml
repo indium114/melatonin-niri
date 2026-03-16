@@ -63,6 +63,7 @@ packages:
     - "libfuse2"
     - "pkg-config"
     - "nala"
+    - "flatpak"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
