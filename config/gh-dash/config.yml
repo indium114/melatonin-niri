@@ -1,6 +1,6 @@
 prSections:
   - title: Open Pull Requests
-    filters: is:open is:pr org:StikyPiston
+    filters: is:open org:indium114
   - title: My Pull Requests
     filters: is:open author:@me
   - title: Needs My Review
