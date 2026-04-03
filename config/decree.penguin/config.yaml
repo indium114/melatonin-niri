@@ -58,6 +58,7 @@ packages:
     - "asciinema"
     - "jujutsu"
     - "aria2"
+    - "nvim"
   deb:
     - "figlet"
     - "tmux"
