@@ -59,6 +59,7 @@ packages:
     - "jujutsu"
     - "aria2"
     - "nvim"
+    - "node"
   deb:
     - "figlet"
     - "tmux"
