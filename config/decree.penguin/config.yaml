@@ -67,6 +67,9 @@ packages:
     - "pkg-config"
     - "nala"
     - "flatpak"
+    - "libssl-dev"
+    - "libxml2-dev"
+    - "libcurl4-openssl-dev"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
