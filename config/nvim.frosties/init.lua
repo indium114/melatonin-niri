@@ -151,7 +151,7 @@ require("lazy").setup({
 		{ "saghen/blink.cmp", opts = { fuzzy = { implementation = "lua" } }, event = { "InsertEnter", "CmdlineEnter" } },
 		{ "folke/lazydev.nvim", ft = "lua", opts = {}, enabled = true },
 		{ "chentoast/marks.nvim", event = "VeryLazy" },
-		{ "stikypiston/cheaty.nvim",
+		{ "indium114/cheaty.nvim",
 			config = function() require("cheaty").setup({
 				cheatsheet = {
 					"# Cheatsheet",
@@ -220,7 +220,7 @@ require("lazy").setup({
 		},
 		{ "lewis6991/gitsigns.nvim", event = "BufReadPre" },
 		{ "m4xshen/autoclose.nvim", config = function() require("autoclose").setup() end },
-		{ "stikypiston/studytools.nvim", config = function()
+		{ "indium114/studytools.nvim", config = function()
 				require("studytools.inlineannotations").setup()
 				require("studytools.pomodoro").setup()
 				require("studytools.blurt").setup()
@@ -288,10 +288,10 @@ require("lazy").setup({
 		{ "folke/todo-comments.nvim", dependencies = { "nvim-lua/plenary.nvim" }, opts = {} },
 		{ "romgrk/barbar.nvim", init = function() vim.g.barbar_auto_setup = false end, opts = {} },
 		{ "folke/trouble.nvim", opts = {}, cmd = "Trouble" },
-		{ "stikypiston/smudge.nvim", opts = { length = 6 } },
+		{ "indium114/smudge.nvim", opts = { length = 6 } },
 		{ "folke/noice.nvim", opts = {} },
 		{ "l3mon4d3/luasnip", dependencies = { "rafamadriz/friendly-snippets" } },
-		{ "stikypiston/unobtrusive-relnums.nvim", opts = { priority = 10, cursor_icon = "0" } }
+		{ "indium114/unobtrusive-relnums.nvim", opts = { priority = 10, cursor_icon = "0" } }
 	  },
 	install = { colorscheme = { "catppuccin-mocha" } },
 	checker = { enabled = true },
