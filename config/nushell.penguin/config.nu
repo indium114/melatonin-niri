@@ -21,6 +21,7 @@ $env.PATH = ( $env.PATH | prepend "/home/indium114/.cargo/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/indium114/.local/share/gem/ruby/3.4.0/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/indium114/.local/bin" )
 $env.PATH = ( $env.PATH | prepend "/home/indium114/go/bin" )
+$env.PATH = ( $env.PATH | prepend "/nix/var/nix/profiles/default/bin" )
 
 source catppuccin_mocha.nu
 source starship.nu
