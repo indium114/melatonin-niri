@@ -3,12 +3,12 @@ settings:
 
 packages:
   brew:
-    - "stikypiston/formulae/decree"
-    - "stikypiston/formulae/dotkeeper"
-    - "stikypiston/formulae/fastcards"
-    - "stikypiston/formulae/hocusfocus"
-    - "stikypiston/formulae/pricetag"
-    - "stikypiston/formulae/recall"
+    - "indium114/formulae/decree"
+    - "indium114/formulae/dotkeeper"
+    - "indium114/formulae/fastcards"
+    - "indium114/formulae/hocusfocus"
+    - "indium114/formulae/pricetag"
+    - "indium114/formulae/recall"
     - "fzf"
     - "fd"
     - "croc"
