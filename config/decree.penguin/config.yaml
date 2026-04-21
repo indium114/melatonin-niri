@@ -58,7 +58,9 @@ packages:
     - "libssl-dev"
     - "libxml2-dev"
     - "libcurl4-openssl-dev"
-    - "libreoffice-writer"
+    - "zathura"
+    - "zathura-pdf-poppler"
+    - "zathura-djvu"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
