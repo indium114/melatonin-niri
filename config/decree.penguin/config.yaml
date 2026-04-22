@@ -61,6 +61,7 @@ packages:
     - "zathura"
     - "zathura-pdf-poppler"
     - "zathura-djvu"
+    - "vlc"
   go:
     - "github.com/stikypiston/theatre@latest"
     - "github.com/spf13/cobra-cli@latest"
