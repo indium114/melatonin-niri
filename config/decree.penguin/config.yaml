@@ -48,6 +48,7 @@ packages:
     - "jujutsu"
     - "aria2"
     - "nvim"
+    - "forgejo-cli"
   deb:
     - "figlet"
     - "tmux"
